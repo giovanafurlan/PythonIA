@@ -2,6 +2,10 @@ from flask import Flask, request
 
 app = Flask("Conversao")
 
+@app.route("/")
+def index():
+    return "Congratulations, it's a web app!"
+
 @app.route('/convert',methods=['POST'])
 def retornaFraseNota():
     body = request.get_json()
