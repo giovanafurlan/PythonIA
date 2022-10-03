@@ -1,1 +1,1 @@
-heroku buildpacks:set heroku/python
+pip install -U Flask
