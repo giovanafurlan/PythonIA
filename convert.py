@@ -33,6 +33,3 @@ def retornaFraseNota():
             print("não encontrada")
         i = i+1
     return {"convertida": newString, "nota": nota, "qualidade": str(qualidade)}
-
-
-app.run()
